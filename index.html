@@ -2,114 +2,151 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basic_Portfolio_Index</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    .background {
+      background: url(images/beige-tiles.png)
+    }
 
-    <title>Basic_Portfolio_Index</title>
-    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<style>
 
-body { 
-    background: url(beige-tiles.png)
-}
+    .jumbotron {
 
+      width: 1024px;
+      margin: 0 auto;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      min-height: calc(100vh - 70px);
+
+    }
+
+    footer {
+      margin-top: 20px;
+      color: rgb(82, 82, 82);
+      text-align: center;
+      background: rgb(237, 242, 243);
+      padding: 20px;
+      float: none;
+      position: static;
+
+
+    }
+
+    #img {
+      float: left;
+      margin-right: 15px;
+      margin-top: 15px;
+
+    }
+
+    @media only screen and (max-width: 960px) {
 
 .jumbotron {
-
-        width: 1024px;
-        margin: 0 auto;
-        margin-top: 40px;
-        
+  width: 90%;
+}
 }
 
-footer {
-    margin-top: 20px;
-    color: #fff;
-    text-align:center;
-    background: rgb(151, 151, 151);
+    @media only screen and (max-width: 780px) {
+
+      .jumbotron {
+        width: 90%;
+      }
+    }
+
+    img {
+      margin-right: 85%;
+    }
+    }
+
+
+    @media only screen and (max-width: 640px) {
+
+      .jumbotron {
+        width: 80%;
+      }
+    }
+
+
     
-}
-
-#img{
-    float: left;
-    margin-right: 15px;
-    margin-top: 15px;
-
-
-</style>
-
-  
+  </style>
 
 
 </head>
 
 
-
-
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">Marcia Zegarra</a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+  <div class="background">
 
 
-      <div class="jumbotron">
-        <h1 class="display-4">About me!</h1>
-        <p class="lead">This is a simple unit that describes how amazing I am becoming on front end :)</p>
-        <hr class="my-4">
-        <img id="img" src="images/face.jpg" alt="MarciaZegarra_Name" width="200px" height="200px">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus voluptate ea
-            praesentium eveniet voluptatem temporibus doloribus placeat eaque quod, neque est ullam error tempora
-            voluptatum, magnam voluptas vitae modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-            libero, quod consequatur,
-            earum unde veniam ea excepturi natus molestiae suscipit amet doloremque provident facilis sint, rem at
-            doloribus asperiores officiis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At iste quaerat
-            quis nam perferendis similique in odio beatae molestias sequi explicabo odit officia non dolorem accusamus
-            totam, asperiores consequuntur rerum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ipsum
-            natus animi assumenda, obcaecati deleniti cum fugit odio quibusdam soluta iste, repellendus praesentium
-            veniam facilis, nostrum quasi consectetur? Incidunt, facilis. Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Inventore velit quam fugit sit impedit iste, eum provident a! Beatae doloremque nostrum
-            quis deserunt, eveniet eius dicta optio cupiditate sed modi.
-            lore Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur nesciunt possimus ea, fuga iure ad
-            non atque, iusto nam vel fugiat blanditiis cumque, laborum magni veniam numquam magnam consequatur
-            voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dicta, illo nisi optio ducimus
-            ipsum suscipit voluptates sint soluta, dolore minus consequuntur nostrum libero, fugit quos quae assumenda
-            fugiat harum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore alias recusandae vitae
-            consequuntur eaque harum amet nesciunt rerum earum voluptatum, iure cupiditate reprehenderit, repellendus
-            corporis nobis sequi ea cum! Vero?</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+           <a class="navbar-brand">Marcia Zegarra</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
+    </div>
 
 
-
-      <footer class="footer mt-auto py-3">
-        <div class="container">
-          <span class="text-muted">Copyright©</span>
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="display-4">About me!</h1>
+          <p class="lead">This is a simple unit that describes how cool my websites are!</p>
+          <hr class="my-4">
+          <div class="col-lg-12">
+            <img id="img" src="images/Kirby.png" alt="MarciaZegarra_Name" width="200px" height="200px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus voluptate ea
+              praesentium eveniet voluptatem temporibus doloribus placeat eaque quod, neque est ullam error tempora
+              voluptatum, magnam voluptas vitae modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              libero, quod consequatur,
+              earum unde veniam ea excepturi natus molestiae suscipit amet doloremque provident facilis sint, rem at
+              doloribus asperiores officiis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. At iste quaerat
+              quis nam perferendis similique in odio beatae molestias sequi explicabo odit officia non dolorem accusamus
+              totam, asperiores consequuntur rerum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ipsum
+              natus animi assumenda, obcaecati deleniti cum fugit odio quibusdam soluta iste, repellendus praesentium
+              veniam facilis, nostrum quasi consectetur? Incidunt, facilis. Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Inventore velit quam fugit sit impedit iste, eum provident a! Beatae doloremque nostrum
+              quis deserunt, eveniet eius dicta optio cupiditate sed modi.
+              lore Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur nesciunt possimus ea, fuga iure ad
+              non atque, iusto nam vel fugiat blanditiis cumque, laborum magni veniam numquam magnam consequatur
+              voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dicta, illo nisi optio ducimus
+              ipsum suscipit voluptates sint soluta, dolore minus consequuntur nostrum libero, fugit quos quae assumenda
+              fugiat harum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore alias recusandae vitae
+              consequuntur eaque harum amet nesciunt rerum earum voluptatum, iure cupiditate reprehenderit, repellendus
+              corporis nobis sequi ea cum! Vero?</p>
+          </div>
         </div>
-      </footer>
+      </div>
+    </div>
 
+
+    <!-- Footer -->
+    <div class="row">
+      <div class="col-lg-12">
+        <footer class="footer">Copyright <b>©</b></footer>
+      </div>
+    </div>
 
 
 </body>

@@ -6,11 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic_Portfolio_Contact</title>
-    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <style>
+
+.background { 
+    background: url(images/beige-tiles.png)
+}
+
+
+.jumbotron {
+
+        width: 1024px;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        min-height: calc(100vh - 70px);
+        
+}
+
+
+input::placeholder,
+textarea::placeholder {
+  font-size:12px;
+}
+
+footer {
+    margin-top: 20px;
+    color: rgb(82, 82, 82);
+    text-align:center;
+    background: rgb(237, 242, 243);
+    padding: 20px;
+    float: none;
+    position: static; 
+
+}
+
+@media only screen and (max-width: 960px) {
+
+.jumbotron {
+  width: 90%;
+}
+}
+
+@media only screen and (max-width: 780px) {
+
+.jumbotron {
+  width: 85%;
+}
+}
+
+@media only screen and (max-width: 640px) {
+
+.jumbotron{
+  width: 80%;
+}
+
+}
 
 
 
@@ -18,132 +71,84 @@
 </head>
 
 <body>
-   
+    <div class="background">
+   <div class="row">
+     <div class="col-lg-12">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">Marcia Zegarra</a>
+          <a class="navbar-brand">Marcia Zegarra</a>
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
-
-
-      <form>
-        <div class="form-row">
-          <div class="col-md-4 mb-3">
-            <label for="validationServer01">First name</label>
-            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <label for="validationServer02">Last name</label>
-            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <label for="validationServerUsername">Username</label>
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text" id="inputGroupPrepend3">@</span>
-              </div>
-              <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
-              <div class="invalid-feedback">
-                Please choose a username.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="col-md-6 mb-3">
-            <label for="validationServer03">City</label>
-            <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
-            <div class="invalid-feedback">
-              Please provide a valid city.
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="validationServer04">State</label>
-            <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
-            <div class="invalid-feedback">
-              Please provide a valid state.
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="validationServer05">Zip</label>
-            <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
-            <div class="invalid-feedback">
-              Please provide a valid zip.
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-            <label class="form-check-label" for="invalidCheck3">
-              Agree to terms and conditions
-            </label>
-            <div class="invalid-feedback">
-              You must agree before submitting.
-            </div>
-          </div>
-        </div>
-        <button class="btn btn-primary" type="submit">Submit form</button>
-      </form>
-
-
-
-    <!-- Strategic container -->
-    <div class="container">
-
-        <!-- Section name -->
-        <h2>Contact</h2>
-
-        <!-- esthetical line -->
-        <hr id="hr1">
-        <!-- Inputs -->
-        <div id="contacts">
-
-            <p>Name</p>
-            <input id="input1" type="text" name="Full Name" placeholder="Full name">
-
-            <p>Email</p>
-            <input id="input2" type="text" name="Email" placeholder="kirby@gmail.com" rows="1" cols="100">
-
-            <p>Message</p>
-            <textarea id="input3" name="Message" placeholder="Message"></textarea>
-            <br>
-            <br>
-            <button type="button" onclick="alert('Thanks for submitting!')">Submit</button>
-        </div>
-
     </div>
+      </div>
 
 
 
-    <br>
-    <br>
-    <!-- Footer -->
-    <footer class="footer">Copyright©</footer>
+      
+      <div class="jumbotron">
+
+          <h1 class="display-4">Contact Us!</h1>
+          <p class="lead">Please leave your information, we probably won't contact you never...</p>
+          <hr class="my-4">
+          <form>
+            <div class="row">
+              <div class="col-lg-12">
+              <div class="form-group">
+                  <div class="form-group">
+                      <label for="exampleInputPassword1">Full name</label>
+                      <input type="Full name" class="form-control" id="exampleInputPassword1" placeholder="Text here">
+                    </div>
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <br>
+                <label for="exampleInputEmail1">Phone Number</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your phone number">
+             
+              </div>
+              <div class="col-lg-3">
+              <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Contact me by email</label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Contact me by text</label>
+                  </div>
+                </div>
+      
+              <div class="form-group">
+                  <label for="exampleFormControlTextarea1" >Please leave us a brief message:</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Start typing here"></textarea>
+                </div>
+            
+                  <button type="submit" class="btn btn-primary" onclick="alert('Thanks for submitting!')">Submit</button>
+            </form>
+            </div>
+          </div>
+          </div>
+
+
+  <!-- Footer -->
+  <div class="row">
+  <div class="col-lg-12">
+  <footer class="footer">Copyright <b>©</b></footer>
+  </div>
+</div>
+
 </body>
 
 </html>
